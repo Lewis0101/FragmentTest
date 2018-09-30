@@ -14,11 +14,18 @@
         android:name="com.example.user.fragmenttest.LeftFragment"
         android:layout_height="match_parent" />
 
-    <fragment
-        android:id="@+id/right_fragment"
+    <!--<fragment-->
+        <!--android:id="@+id/right_fragment"-->
+        <!--android:layout_width="0dp"-->
+        <!--android:layout_weight="1"-->
+        <!--android:name="com.example.user.fragmenttest.RightFragment"-->
+        <!--android:layout_height="match_parent" />-->
+
+    <FrameLayout
+        android:id="@+id/right_layout"
         android:layout_width="0dp"
-        android:layout_weight="1"
-        android:name="com.example.user.fragmenttest.RightFragment"
-        android:layout_height="match_parent" />
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+    </FrameLayout>
 
 </LinearLayout>
