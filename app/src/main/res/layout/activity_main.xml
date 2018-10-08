@@ -21,6 +21,7 @@
         <!--android:name="com.example.user.fragmenttest.RightFragment"-->
         <!--android:layout_height="match_parent" />-->
 
+    <!--帧布局-->
     <FrameLayout
         android:id="@+id/right_layout"
         android:layout_width="0dp"
