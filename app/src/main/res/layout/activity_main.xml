@@ -9,8 +9,7 @@
 
     <fragment
         android:id="@+id/left_fragment"
-        android:layout_width="0dp"
-        android:layout_weight="1"
+        android:layout_width="match_parent"
         android:name="com.example.user.fragmenttest.LeftFragment"
         android:layout_height="match_parent" />
 
@@ -22,11 +21,12 @@
         <!--android:layout_height="match_parent" />-->
 
     <!--帧布局-->
-    <FrameLayout
-        android:id="@+id/right_layout"
-        android:layout_width="0dp"
-        android:layout_height="match_parent"
-        android:layout_weight="1">
-    </FrameLayout>
+    <!--<FrameLayout-->
+        <!--android:id="@+id/right_layout"-->
+        <!--android:layout_width="0dp"-->
+        <!--android:layout_height="match_parent"-->
+        <!--android:layout_weight="1">-->
+    <!--</FrameLayout>-->
+
 
 </LinearLayout>
